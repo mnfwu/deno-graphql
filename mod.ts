@@ -1,5 +1,5 @@
 import { Application, Router, RouterContext } from 'https://deno.land/x/oak@v9.0.0/mod.ts';
-import { applyGraphQL, gql, GQLError } from 'https://deno.land/x/oak_graphql/mod.ts';
+import { applyGraphQL, gql, GQLError } from 'https://deno.land/x/oak_graphql@0.6.2/mod.ts';
 
 import { users } from './data.ts';
 
